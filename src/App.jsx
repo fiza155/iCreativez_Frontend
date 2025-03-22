@@ -17,13 +17,10 @@ function App() {
       <Header />
       <Navbar />
       <Hero />
-      {/* <ParawithCards /> */}
       <OurServices />
       <Achievements />
       <ImagesSection />
       <Marquee />
-      {/* <Career /> */}
-      {/* <SuccessAwards /> */}
       <Footer />
     </>
   );
