@@ -1,0 +1,46 @@
+/* Enable smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Wrapper to handle full-page scrolling */
+#wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Content container */
+#content {
+    padding: 20px;
+}
+
+/* Gallery Wrapper */
+.gallery-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Horizontal Gallery */
+.gallery {
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+    padding: 20px 0;
+}
+
+/* Gallery Boxes */
+.gallery-box {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 200px;
+    background: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gallery-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
